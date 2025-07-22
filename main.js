@@ -22,7 +22,8 @@
 	Consta de 3 clases principales
 
 	Clase PDFdy_Main: clase principal contiene la logica del sistema.
-	Clase PDFdy: clase accesible del sistema, pero es solo una interfaz con implementación del patron builder,
+
+	Clase PDFdy: clase accesible del sistema, es una interfaz con implementación del patron builder,
 		Funciona solo como la clase encargada de facilitar el uso de la herramienta, y realmente simplemente sirve
 		para ingresar de mejor más organizarla, y pasarla a la verdadera clase principal que es PDFdy_Main.
 
