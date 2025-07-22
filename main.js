@@ -14,17 +14,21 @@
 
 
 /*	Esta libreria tiene tres clases principales, cada una con diferente funcionalidad y objetivo
-	Soy bastante consiente, que puede sentirse demasiado modular y separado pero, el objetivo es hacerlo lo más
+	Soy bastante consiente, que puede sentirse demasiado modular y separado, pero el objetivo es hacerlo lo más
 	escalable y sostenible posible.
+*/
 
-	Clases del sistema
+/* 
+	Consta de 3 clases principales
+	
+	Clase PDFdy: es la clase accesible del sistema, pero es solo una interfaz con implementación del patron builder,
+		Funciona solo como la clase encargada de facilitar el uso de la herramienta, y realmente simplemente sirve
+		para ingresar de mejor más organizarla, y pasarla a la verdadera clase principal que es PDFdy_Main.
 
-	Class PDFdy();
-		Esta clase es solo un builder, una interfaz para pasar los datos y conentar todas las partes
-		del sistema de una forma más optimizada
+	Clase Adapter: Es una clase no instanciable, simplemente funciona como una colección de diferentes
+		adaptadores, con el fin de devolver los datos de una forma organizada y en el formato que necesita la clase principal (array con objetos dentro).
 
-		partes:
-			El adaptador toma un 
+	Clase PDFdy_Main: Es la clase principal que contiene la logica del sistema.
 */
 
 
